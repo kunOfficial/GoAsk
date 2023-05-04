@@ -65,7 +65,7 @@ create database GoAsk_db default character set utf8mb4
 
    首先是修改 backend/config/config.ini 的配置文件，这里一般需要修改的就是 redis、mysql 的登录密码，比如 DbPassword 表示 mysql 数据库的密码，而 RedisPw 表示 redis-cli 的登录密码（我没有密码，所以为空）。其他配置看字段名应该能知道意思，一般也不需要改变。
 
-<img src="C:\Users\lyk\AppData\Roaming\Typora\typora-user-images\image-20221208221910299.png" alt="image-20221208221910299" style="zoom:50%;" />
+<img src="images/config.jpg" style="zoom:50%;" />
 
 **运行部署**
 
@@ -75,7 +75,7 @@ create database GoAsk_db default character set utf8mb4
 ./main.exe
 ```
 
-![image-20221208223343954](C:\Users\lyk\AppData\Roaming\Typora\typora-user-images\image-20221208223343954.png)
+<img src="images/backend-on-run.jpg" style="zoom:70%;" />
 
   看到控制台输出该行，说明运行成功，后端配置完毕！
 
@@ -103,7 +103,7 @@ npm run dev -- --host
 
 运行结果如下，选择第一个进入即可：
 
-![image-20221208224353526](C:\Users\lyk\AppData\Roaming\Typora\typora-user-images\image-20221208224353526.png)
+<img src="images/vite-on-run.jpg" style="zoom:50%;" />
 
 **方法3**: 如果没有以上环境，直接在 .\frontend\dist 目录下运行
 
@@ -111,4 +111,4 @@ npm run dev -- --host
 ./miniserve --spa --index .\index.html
 ```
 
-![image-20221208225341429](C:\Users\lyk\AppData\Roaming\Typora\typora-user-images\image-20221208225341429.png)
+<img src="images/miniserver-on-run.jpg" style="zoom:70%;" />
