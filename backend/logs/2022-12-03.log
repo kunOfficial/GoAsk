@@ -1,0 +1,7 @@
+time="2022-12-03 21:52:33" level=info msg="token is expired by 2m1.2727316s"
+time="2022-12-03 21:54:05" level=info msg="token is expired by 3m33.5773801s"
+time="2022-12-03 21:56:09" level=info msg="token is expired by 5m37.6792301s"
+time="2022-12-03 21:56:18" level=info msg="token is expired by 5m46.1873915s"
+time="2022-12-03 21:56:25" level=info msg="token is expired by 5m53.7617762s"
+time="2022-12-03 21:56:54" level=info msg="token is expired by 6m22.3831559s"
+time="2022-12-03 22:45:00" level=info msg="token contains an invalid number of segments"
