@@ -1,2 +1,0 @@
-time="2022-11-03 09:45:00" level=info msg="Error 1054: Unknown column 'username' in 'where clause'"
-time="2022-11-03 17:15:29" level=info msg="token contains an invalid number of segments"
