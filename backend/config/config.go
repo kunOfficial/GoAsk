@@ -21,8 +21,8 @@ var (
 	AvatarPath  string
 )
 
-func Init() {
-	file, err := ini.Load("./config/config.ini")
+func Init(configFilePath string) {
+	file, err := ini.Load(configFilePath)
 	if err != nil {
 		log.Fatalln("配置文件读取失败:", err)
 	}

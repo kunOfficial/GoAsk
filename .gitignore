@@ -4,3 +4,7 @@ frontend/.vscode/
 
 # backend
 backend/.idea/
+
+# logs
+backend logs/
+backend test/logs/
