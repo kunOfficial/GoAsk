@@ -1,0 +1,10 @@
+# frontend
+frontend/node_modules/
+frontend/.vscode/
+
+# backend
+backend/.idea/
+
+# logs
+backend/logs/
+backend/test/logs/
